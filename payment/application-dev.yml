@@ -1,14 +1,14 @@
-service:
- name: test payment service for dev
- 
+payment:
+  timeout: 5000
+  currency: USD
+
+# Configuration de la base de données
 database:
-  url: jdbc:mysql://localhost:3306/mydatabase
-  username: myusername
-  password: mypassword
-  
-payment:
-    params:
-        x:1
-payment:
-    params:
-        y:2
+  url: jdbc:mysql://localhost:3306/payment_db
+  username: root
+  password: password123
+
+# Configuration des services tiers
+third-party:
+  service_url: https://third-party-service.com/api
+  api_key: YOUR_API_KEY_HERE
