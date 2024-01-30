@@ -1,0 +1,7 @@
+service:
+ name: test payment service for dev
+ 
+database:
+  url: jdbc:mysql://localhost:3306/mydatabase
+  username: myusername
+  password: mypassword
