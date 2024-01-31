@@ -1,2 +1,3 @@
-service:
- name: test service Payment
+spring:
+  application: 
+     name: payment

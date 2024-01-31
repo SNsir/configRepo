@@ -1,2 +1,3 @@
-service:
- name: test guarantee service for prod
+spring:
+  application: 
+     name: guarantee

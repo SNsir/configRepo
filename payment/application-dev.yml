@@ -1,3 +1,6 @@
+spring:
+  application: 
+     name: payment
 payment:
   timeout: 5000
   currency: USD

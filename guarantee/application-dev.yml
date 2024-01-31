@@ -1,3 +1,6 @@
+spring:
+  application: 
+     name: guarantee
 guarantee:
   timeout: 5000
   currency: USD
