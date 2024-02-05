@@ -5,4 +5,4 @@ spring:
 payment:
     params:
         p1: 0000
-tps: 8
+tps: 22
