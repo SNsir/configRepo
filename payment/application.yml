@@ -1,3 +1,7 @@
 spring:
   application: 
      name: payment
+
+payment:
+    params:
+        p1: 9999
