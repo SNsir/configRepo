@@ -4,4 +4,4 @@ spring:
 
 payment:
     params:
-        p1: 8888
+        p1: 0000
